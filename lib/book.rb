@@ -4,4 +4,7 @@ class Book
     @title = title #instance variable
   end
 
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
 end
